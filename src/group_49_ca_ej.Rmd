@@ -1,6 +1,6 @@
 ---
 title: "Group 49 CA pollution burden"
-author: "Michelle Lepori-Bui"
+author: "Michelle Lepori-Bui, Jenna Wisniewski"
 date: "11/23/2020"
 output: html_document
 ---
@@ -15,5 +15,9 @@ library(here)
 ```{r}
 ces <- read_csv(here("data","ces3demographics.csv")) %>% 
   clean_names()
+```
+```{r}
+ggplot(data = ces, aes(x = white_percent, y = ces_3_0_score)) +
+  geom_point()
 ```
 
