@@ -28,3 +28,6 @@ ggplot(data = ces, aes(x = white_percent, y = ces_3_0_score)) +
   theme_minimal()
 ```
 
+
+
+Pollution burden (the exposure to harmful pollutants from multiple sources) has a negative relationship with the percentage of a population that identifies as white. As the percentage of a population that identifies as white increases, the pollution burden decreases. 
